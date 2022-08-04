@@ -1,0 +1,24 @@
+{
+  "name": "sboh-npm-ci-cd",
+  "version": "1.0.0",
+  "description": "Examples for npm ci, cd with Github Actions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sboh1214/npm-ci-cd.git"
+  },
+  "author": "Seungbin Oh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sboh1214/npm-ci-cd/issues"
+  },
+  "homepage": "https://github.com/sboh1214/npm-ci-cd#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
